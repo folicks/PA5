@@ -1,0 +1,19 @@
+Name:Felix Najera
+PID: A17618969
+Date: 9/2/24
+
+1. (1pt) Approximately how long did you spend on this PA?
+20 hours
+2. (3pt) d-ary heaps are typically more efficient and useful than binary heaps. However, there’s not really such a thing as a d-ary search tree (as opposed to a binary search tree). Why might this be the case? What is a drawback of implementing a d-ary search tree, instead of a BST?
+Trees aren't impossible in d-ary in a literal sense but in practical one due to the algorithm efficiency being lost\
+because of the graph (yes everything is a graph) like behavior it would take on similar to class examples. where \
+insertion and deletion lose its speed due to more complexity involved in navigation. Although of course this is \
+considering the worst case, you could always get lucky and have the "top leaf" be the intended object you were seeking.
+3. (4pt) Compare and contrast the implementation of the MyPriorityQueue in this PA with the implementation of the CharQueue in PA 3. What is similar about the two data structures? What is different? Give specific details about your code, rather than conceptual similarities and differences.
+They are both using arrays at their foundations given the array instantiations char[]. The priority queue uses an \
+explicit interface as a difference to CharQueue. The order is decided by priority for the search versus FIFO of char \
+queue.
+4. (2pt) Did the accuracy for your KNN algorithm increase or decrease when you increased the number of images (NUM_TEST)? Why do you think that might be?
+KNN algorithm was increasing in accuracy likely due to math properties such as the law of large numbers. It likely was\
+also better due to the nature of more points being more likely to be in the confines of the pre-defined clusters. Since\
+at least from what I was able to tell in the write-up is that weren't supposed to change the count of clusters.
