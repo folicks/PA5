@@ -61,7 +61,7 @@ public class dHeap<T extends Comparable<? super T>> implements HeapInterface<T> 
     }
 
 
-    /*
+    /**
     * Getter for the dHeap Object size
     *
     *
@@ -72,7 +72,7 @@ public class dHeap<T extends Comparable<? super T>> implements HeapInterface<T> 
     }
 
 
-    /*
+    /**
     *
     * Rearranges heap around removed leaf
     * @return the element of the heap to be deleted
@@ -95,7 +95,7 @@ public class dHeap<T extends Comparable<? super T>> implements HeapInterface<T> 
 
 
 
-    /*
+    /**
     *
     *
     *
@@ -142,7 +142,7 @@ public class dHeap<T extends Comparable<? super T>> implements HeapInterface<T> 
 
 
 
-    /*
+    /**
     *
     * uses java builtin array for clearing
     *
@@ -157,7 +157,7 @@ public class dHeap<T extends Comparable<? super T>> implements HeapInterface<T> 
     }
 
 
-    /*
+    /**
     *
     * gives the data of the top of the heap
     * @return the top of the heap
@@ -187,7 +187,7 @@ public class dHeap<T extends Comparable<? super T>> implements HeapInterface<T> 
 
 
 
-    /*
+    /**
     *
     *
     * percolates whether its less or greater
@@ -212,7 +212,7 @@ public class dHeap<T extends Comparable<? super T>> implements HeapInterface<T> 
     }
 
 
-    /*
+    /**
     *
     *
     * ensures the transfer of nodes in the Collection doesn't
@@ -255,7 +255,7 @@ public class dHeap<T extends Comparable<? super T>> implements HeapInterface<T> 
 
 
 
-    /*
+    /**
     *
     *
     * Creates new instantiation of builtin Array with newCapacity
@@ -291,7 +291,7 @@ public class dHeap<T extends Comparable<? super T>> implements HeapInterface<T> 
 
 
 
-    /*
+    /**
     *
     * traverses heap for largest value found
     * @param end max bound for the search/traversal
@@ -311,7 +311,7 @@ public class dHeap<T extends Comparable<? super T>> implements HeapInterface<T> 
 
 
 
-    /*
+    /**
     *
     * makes comparison of node data
     * @param a the first node
@@ -324,7 +324,7 @@ public class dHeap<T extends Comparable<? super T>> implements HeapInterface<T> 
 
 
 
-    /*
+    /**
     *
     * has the nodes in the heap flip positions
     *
@@ -341,7 +341,7 @@ public class dHeap<T extends Comparable<? super T>> implements HeapInterface<T> 
     }
 
 
-    /*
+    /**
     * checks whether the heap is empty
     * @return t/f if the elements/"nodes" aren't there
     *
