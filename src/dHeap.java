@@ -22,6 +22,7 @@ public class dHeap<T extends Comparable<? super T>> implements HeapInterface<T> 
     private int nelems; // number of elements
     private boolean isMaxHeap; // indicates whether heap is max or min
 
+
     /**
      * Initializes a binary max heap with capacity = 10
      */
@@ -63,10 +64,9 @@ public class dHeap<T extends Comparable<? super T>> implements HeapInterface<T> 
 
     /**
     * Getter for the dHeap Object size
+    * @return attribute of number of elements
     *
-    *
-    * */
-    @Override
+    * */@Override
     public int size() {
         return nelems;
     }
@@ -173,7 +173,7 @@ public class dHeap<T extends Comparable<? super T>> implements HeapInterface<T> 
 
 
 
-    /*
+    /**
     *
     * parent position
     * @param index the known index
@@ -316,7 +316,7 @@ public class dHeap<T extends Comparable<? super T>> implements HeapInterface<T> 
     * makes comparison of node data
     * @param a the first node
     * @param b the second node in mind
-    *
+    * @return gives a value of the binary return
     * */
     private int compare(T a, T b) {
         return a.compareTo(b);
