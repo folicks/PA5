@@ -86,8 +86,9 @@ public class MyPriorityQueue<T extends Comparable<? super T>> {
      *
      *
      *
-     *  getter for the size parameter
-     * */
+     * getter for the size parameter
+     * @return size attribute
+     */
     public int size() {
         return pQueue.size();
     }
